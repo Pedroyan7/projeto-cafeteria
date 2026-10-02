@@ -55,3 +55,16 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+article {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    width: 220px;
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
