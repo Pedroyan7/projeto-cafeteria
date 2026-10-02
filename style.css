@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4eee8;
+    background-color: red; /* <-- AQUI ESTÁ O NOSSO ERRO! */
     color: #333;
 }
 
